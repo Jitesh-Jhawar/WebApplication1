@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace WebApplication1.Data
+namespace WebApplication1.Models
 {
     public class MovieContext : DbContext
     {

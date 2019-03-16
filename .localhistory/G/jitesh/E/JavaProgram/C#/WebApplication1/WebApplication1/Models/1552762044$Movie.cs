@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using WebApplication1.Data;
 
 namespace WebApplication1.Models
 {
