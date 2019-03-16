@@ -33,6 +33,10 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+        public IActionResult HollyShit() {
+            ViewData["Hotmess"] = "Jitesh is seding message from server .";
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

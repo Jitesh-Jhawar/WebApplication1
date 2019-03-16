@@ -1,0 +1,23 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+<br/>
+Hi is is form the view works ::::
+<br/>
+@ViewData["Hotmess"]
+<br/>
+<span id="gist">It is from View</span><br/>
+<button onclick="Do()" >
+    Click Here
+</button>
+<br/>
+<script type="text/javascript">
+    function Do(){
+        var mySpan = document.getElementById('gist');
+        myAddon = ' and this is added after the js workings';
+        mySpan.textContent = mySpan.textContent + myAddon;
+}
+    </script>
+
