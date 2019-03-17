@@ -17,17 +17,10 @@ Step 4:
 Goto: appsettings.json 
 Change: Connection String to the initiator Strings.
 Step 5:
-Edit:
-Views/<ModelName>/*
-Remove:
-@{
-Layout=null
-}
-Step 6:
 NuGetPackageManager-> PackageManagerConsole
 Type:
 Update-Database
-Step 7:
+Step 6:
 Run the Server.
 
 ADDING A ADMIN AND USER LOGIN FUNCTIONALITIES:>
@@ -57,7 +50,6 @@ Edit:
 _Layout.cshtml
 Add:
 <partial name="_LoginPartial" />
-
 
 
 

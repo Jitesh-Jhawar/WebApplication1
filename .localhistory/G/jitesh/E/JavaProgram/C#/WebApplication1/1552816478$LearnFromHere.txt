@@ -19,7 +19,7 @@ Change: Connection String to the initiator Strings.
 Step 5:
 Edit:
 Views/<ModelName>/*
-Remove:
+Delete:
 @{
 Layout=null
 }
