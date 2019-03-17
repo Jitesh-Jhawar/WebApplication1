@@ -57,8 +57,6 @@ Edit:
 _Layout.cshtml
 Add:
 <partial name="_LoginPartial" />
-Step 6:
-Run the Server
 
 
 
