@@ -54,11 +54,11 @@ namespace WebApplication1
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
-            app.UseStaticFiles();
+            app.UseHttpsRedirection();//req
+            app.UseStaticFiles();//req
             app.UseCookiePolicy();
-
-            app.UseMvc(routes =>
+            app.UseAuthentication();//req
+            app.UseMvc(routes =>//req
             {
                 routes.MapRoute(
                     name: "default",

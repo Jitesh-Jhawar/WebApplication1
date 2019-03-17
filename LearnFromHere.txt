@@ -1,5 +1,7 @@
 For Simple MVC application
 
+ADDING A SCAFFOLDING TO THE MIX:>
+
 https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-2.2&tabs=visual-studio
 
 
@@ -21,8 +23,30 @@ Update-Database
 Step 6:
 Run the Server.
 
+ADDING A ADMIN AND USER LOGIN FUNCTIONALITIES:>
 
-For ML adding to application
+https://docs.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity?view=aspnetcore-2.2&tabs=visual-studio
+
+
+Step 1:
+Add Scaffolding Identity New Select All
+Step 2:
+Edit: appsettings.json 
+Change:
+<database values>
+Step 3:
+Edit: Startup.cs
+Add:
+app.UseAuthentication();
+Step 4:
+NuGetPackageManager-> PackageManagerConsole
+Type:
+Add-Migration CreateIdentitySchema
+Update-Database
+
+
+
+For ML adding to application <not for this application>
 
 https://github.com/dotnet/machinelearning
 
