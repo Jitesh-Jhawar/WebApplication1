@@ -1,3 +1,5 @@
+For Simple MVC application
+
 https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-2.2&tabs=visual-studio
 
 
@@ -18,3 +20,17 @@ Type:
 Update-Database
 Step 6:
 Run the Server.
+
+
+For ML adding to application
+
+https://github.com/dotnet/machinelearning
+
+
+NuGetPackageManager-> PackageManagerConsole
+Type:
+Install-Package Microsoft.ML
+
+
+
+
